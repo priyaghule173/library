@@ -1,0 +1,231 @@
+body{
+    margin: 0px;
+}
+
+header{
+    width: 100%;
+    height: 130px;
+    background: #800000;
+    border-bottom: #660000 solid 3px;
+}
+
+.container{
+    margin: 0 auto;
+    background:#f2f2f2;
+    max-width: 1000px; 
+    min-height: 800px;
+}
+
+footer{
+    width: 100%;
+    height: 150px !important;
+    background: #4d4d4d;
+    border-top: darkblue solid 2px;
+    text-align: center;
+    color: #fff;
+}
+
+#logo img{
+    margin-top: -35px;
+    margin-left: 120px;
+}
+
+footer p{
+    line-height: 150px;
+}
+
+.h1_content{
+    margin-top: 0px;
+    padding-top: 20px;
+    text-align: center;
+    text-shadow: 0px 0px 2px #4d1919;
+    color: #993333;
+}
+
+
+
+.bookTable{
+    text-align: center;
+    border: #800000 solid 1px;
+    cursor: default;
+    width: 900px;
+}
+
+.bookTable thead th {
+    background: #b30000;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    color:#ecc6c6;
+}
+
+.bookTable tbody tr td{
+    border: #800000 solid 1px;
+}
+
+.bookTable tbody tr{
+    background:  #c65353;
+    height: 30px !important;
+    height: 25px;
+    color: #fff;
+}
+
+.bookTable tbody tr:hover{
+    background:  #b30000;
+    height: 30px !important;
+    height: 25px;
+}
+
+.btn-xs{
+    width: 75px;
+}
+
+.btn-mx{
+    margin-left: 10px !important;
+    margin-top: 15px !important;
+    min-width: 100px;
+    float: right;
+}
+
+table label,  .stuInputField{
+    margin: 5px 5px 5px 5px ;
+}
+
+hr{
+    border: #fff solid 1px;
+    width: 100%;
+}
+
+.btn-primary{
+    background:#990000;
+    border: #800000 solid 2px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background: #660000;
+    border: #800000 solid 2px !important;
+}
+
+.btn-primary:active{
+    background: #660000 !important;
+    border: #800000 solid 2px !important;
+    box-shadow: none;
+}
+
+.dropdown-toggle{
+    background: #660000 !important;
+    border: #800000 solid 2px !important;
+}
+
+.loginForm{
+    margin-top: 70px;
+    background: #ac3939;
+    max-width: 450px;
+    padding: 30px;
+    border-radius: 10px;
+    border: #800000 solid 5px;
+}
+
+.loginForm .form-control{
+    border:#800000 solid 3px;
+}
+
+.loginForm .form-control:focus{
+    border:#c65353 solid 3px;
+    box-shadow: none;
+}
+
+.login-btn{
+    margin-top: 28px !important;
+}
+
+.dropdown{
+    margin-top: 15px;
+    margin-right: 20px;
+    float: right;
+}
+
+.dropdown button{
+    width: 160px;
+}
+
+.dropdown-menu{
+    background: #ac3939;
+}
+
+.dropdown-menu li{
+    text-align: center;
+    color: #fff !important;
+}
+
+.dropdown-menu li a{
+    text-align: center;
+    color: #ecc6c6 !important;
+}
+
+.dropdown-menu li a:hover{
+    text-align: center;
+    background: #800000 !important;
+    color: #fff !important;
+}
+
+.slider{
+    background: #f2f2f2;
+    width: 100%;
+    height: 450px;
+}
+
+.slider .content{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.slider iframe{
+    width: 100%;
+    height: 450px;
+    border:none;
+    overflow: hidden !important;
+}
+
+.home-btn{
+    background: #fff;
+    text-align: center;
+    max-width: 180px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: #800000 solid 3px;
+}
+
+.home-btn:hover{
+    box-shadow: 0px 0px 5px #600;
+}
+
+.home-btn a{
+    color: #800000;
+    text-decoration: none;
+}
+
+.sec_img{
+    width: 210px;
+    height: 130px;
+    border: #fff solid 5px;
+    margin-top: 40px;
+}
+
+.sec_img:hover{
+    width: 210px;
+    height: 130px;
+    border: #600 solid 5px;
+}
+
+.sec_p{
+    text-align: justify;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
